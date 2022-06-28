@@ -1,1377 +1,606 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" profiles="urn:mpeg:dash:profile:isoff-live:2011" type="static" mediaPresentationDuration="PT1H38M11.116S" minBufferTime="PT2.000S">
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" profiles="urn:mpeg:dash:profile:isoff-live:2011" type="static" mediaPresentationDuration="PT1H34M12.296S" minBufferTime="PT2.000S">
   <Period id="0" duration="PT30S">
     <AdaptationSet mimeType="audio/mp4" startWithSAP="1" segmentAlignment="true" lang="en">
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init0.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="0" timescale="44100">
+      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/init0.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/segment$Number$.m4f" startNumber="0" timescale="44100">
         <SegmentTimeline>
           <S d="88064" r="14"></S>
           <S d="3072"></S>
         </SegmentTimeline>
       </SegmentTemplate>
-      <Representation audioSamplingRate="44100" bandwidth="64000" codecs="mp4a.40.2" id="default_audio64_5_en_main"></Representation>
       <Representation audioSamplingRate="44100" bandwidth="96000" codecs="mp4a.40.2" id="default_audio96_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="128000" codecs="mp4a.40.2" id="default_audio128_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="192000" codecs="mp4a.40.2" id="default_audio192_2_en_main"></Representation>
-    </AdaptationSet>
-    <AdaptationSet mimeType="text/vtt" lang="en">
-      <Representation bandwidth="256" id="subtitle_en">
-        <BaseURL>https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/a292ecf6-8d16-42b7-8fbc-8d1df2deec85/08a8e4b1-f7c5-45b2-8ca2-6ad47d8151d9.vtt</BaseURL>
-      </Representation>
     </AdaptationSet>
     <AdaptationSet mimeType="video/mp4" startWithSAP="1" scanType="progressive" segmentAlignment="true">
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init0.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="0" timescale="25">
+      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/init0.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/segment$Number$.m4f" startNumber="0" timescale="25">
         <SegmentTimeline>
           <S d="50" r="14"></S>
         </SegmentTimeline>
       </SegmentTemplate>
-      <Representation bandwidth="449000" codecs="avc1.420015" frameRate="25/1" height="270" id="4460760524001_water450_3_480x270" width="480"></Representation>
       <Representation bandwidth="698000" codecs="avc1.42001e" frameRate="25/1" height="360" id="4460760524001_water700_3_640x360" width="640"></Representation>
-      <Representation bandwidth="899000" codecs="avc1.4d001e" frameRate="25/1" height="360" id="4460760524001_water900_3_640x360" width="640"></Representation>
-      <Representation bandwidth="1198000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1200_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1698000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1700_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1996000" codecs="avc1.4d001f" frameRate="25/1" height="720" id="4460760524001_water2000_3_1280x720" width="1280"></Representation>
     </AdaptationSet>
   </Period>
   <Period id="1" duration="PT22M16S">
     <AdaptationSet mimeType="audio/mp4" startWithSAP="1" segmentAlignment="true" lang="en">
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init1.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="16" timescale="44100">
+      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/init1.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/segment$Number$.m4f" startNumber="16" timescale="44100">
         <SegmentTimeline>
           <S d="88064" r="668"></S>
           <S d="3072"></S>
         </SegmentTimeline>
       </SegmentTemplate>
-      <Representation audioSamplingRate="44100" bandwidth="64000" codecs="mp4a.40.2" id="default_audio64_5_en_main"></Representation>
       <Representation audioSamplingRate="44100" bandwidth="96000" codecs="mp4a.40.2" id="default_audio96_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="128000" codecs="mp4a.40.2" id="default_audio128_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="192000" codecs="mp4a.40.2" id="default_audio192_2_en_main"></Representation>
-    </AdaptationSet>
-    <AdaptationSet mimeType="text/vtt" lang="en">
-      <Representation bandwidth="256" id="subtitle_en">
-        <BaseURL>https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/a292ecf6-8d16-42b7-8fbc-8d1df2deec85/08a8e4b1-f7c5-45b2-8ca2-6ad47d8151d9.vtt</BaseURL>
-      </Representation>
     </AdaptationSet>
     <AdaptationSet mimeType="video/mp4" startWithSAP="1" scanType="progressive" segmentAlignment="true">
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init1.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="15" timescale="25">
+      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/init1.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/segment$Number$.m4f" startNumber="15" timescale="25">
         <SegmentTimeline>
           <S d="50" r="667"></S>
         </SegmentTimeline>
       </SegmentTemplate>
-      <Representation bandwidth="449000" codecs="avc1.420015" frameRate="25/1" height="270" id="4460760524001_water450_3_480x270" width="480"></Representation>
       <Representation bandwidth="698000" codecs="avc1.42001e" frameRate="25/1" height="360" id="4460760524001_water700_3_640x360" width="640"></Representation>
-      <Representation bandwidth="899000" codecs="avc1.4d001e" frameRate="25/1" height="360" id="4460760524001_water900_3_640x360" width="640"></Representation>
-      <Representation bandwidth="1198000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1200_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1698000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1700_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1996000" codecs="avc1.4d001f" frameRate="25/1" height="720" id="4460760524001_water2000_3_1280x720" width="1280"></Representation>
     </AdaptationSet>
   </Period>
   <Period id="2" duration="PT30S">
     <AdaptationSet mimeType="audio/mp4" startWithSAP="1" segmentAlignment="true" lang="en">
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init2.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="686" timescale="44100">
+      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/init2.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/segment$Number$.m4f" startNumber="686" timescale="44100">
         <SegmentTimeline>
           <S d="88064" r="14"></S>
           <S d="2048"></S>
         </SegmentTimeline>
       </SegmentTemplate>
-      <Representation audioSamplingRate="44100" bandwidth="64000" codecs="mp4a.40.2" id="default_audio64_5_en_main"></Representation>
       <Representation audioSamplingRate="44100" bandwidth="96000" codecs="mp4a.40.2" id="default_audio96_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="128000" codecs="mp4a.40.2" id="default_audio128_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="192000" codecs="mp4a.40.2" id="default_audio192_2_en_main"></Representation>
-    </AdaptationSet>
-    <AdaptationSet mimeType="text/vtt" lang="en">
-      <Representation bandwidth="256" id="subtitle_en">
-        <BaseURL>https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/a292ecf6-8d16-42b7-8fbc-8d1df2deec85/08a8e4b1-f7c5-45b2-8ca2-6ad47d8151d9.vtt</BaseURL>
-      </Representation>
     </AdaptationSet>
     <AdaptationSet mimeType="video/mp4" startWithSAP="1" scanType="progressive" segmentAlignment="true">
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init2.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="683" timescale="25">
+      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/init2.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/segment$Number$.m4f" startNumber="683" timescale="25">
         <SegmentTimeline>
           <S d="50" r="14"></S>
         </SegmentTimeline>
       </SegmentTemplate>
-      <Representation bandwidth="449000" codecs="avc1.420015" frameRate="25/1" height="270" id="4460760524001_water450_3_480x270" width="480"></Representation>
       <Representation bandwidth="698000" codecs="avc1.42001e" frameRate="25/1" height="360" id="4460760524001_water700_3_640x360" width="640"></Representation>
-      <Representation bandwidth="899000" codecs="avc1.4d001e" frameRate="25/1" height="360" id="4460760524001_water900_3_640x360" width="640"></Representation>
-      <Representation bandwidth="1198000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1200_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1698000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1700_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1996000" codecs="avc1.4d001f" frameRate="25/1" height="720" id="4460760524001_water2000_3_1280x720" width="1280"></Representation>
     </AdaptationSet>
   </Period>
   <Period id="3" duration="PT31.997097493S">
     <AdaptationSet mimeType="audio/mp4" startWithSAP="1" segmentAlignment="true" lang="en">
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init3.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="702" timescale="44100">
+      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/init3.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/segment$Number$.m4f" startNumber="702" timescale="44100">
         <SegmentTimeline>
           <S d="88064" r="15"></S>
           <S d="2048"></S>
         </SegmentTimeline>
       </SegmentTemplate>
-      <Representation audioSamplingRate="44100" bandwidth="64000" codecs="mp4a.40.2" id="default_audio64_5_en_main"></Representation>
       <Representation audioSamplingRate="44100" bandwidth="96000" codecs="mp4a.40.2" id="default_audio96_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="128000" codecs="mp4a.40.2" id="default_audio128_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="192000" codecs="mp4a.40.2" id="default_audio192_2_en_main"></Representation>
-    </AdaptationSet>
-    <AdaptationSet mimeType="text/vtt" lang="en">
-      <Representation bandwidth="256" id="subtitle_en">
-        <BaseURL>https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/a292ecf6-8d16-42b7-8fbc-8d1df2deec85/08a8e4b1-f7c5-45b2-8ca2-6ad47d8151d9.vtt</BaseURL>
-      </Representation>
     </AdaptationSet>
     <AdaptationSet mimeType="video/mp4" startWithSAP="1" scanType="progressive" segmentAlignment="true">
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init3.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="698" timescale="25">
+      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/init3.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/segment$Number$.m4f" startNumber="698" timescale="25">
         <SegmentTimeline>
           <S d="50" r="15"></S>
         </SegmentTimeline>
       </SegmentTemplate>
-      <Representation bandwidth="449000" codecs="avc1.420015" frameRate="25/1" height="270" id="4460760524001_water450_3_480x270" width="480"></Representation>
       <Representation bandwidth="698000" codecs="avc1.42001e" frameRate="25/1" height="360" id="4460760524001_water700_3_640x360" width="640"></Representation>
-      <Representation bandwidth="899000" codecs="avc1.4d001e" frameRate="25/1" height="360" id="4460760524001_water900_3_640x360" width="640"></Representation>
-      <Representation bandwidth="1198000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1200_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1698000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1700_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1996000" codecs="avc1.4d001f" frameRate="25/1" height="720" id="4460760524001_water2000_3_1280x720" width="1280"></Representation>
     </AdaptationSet>
   </Period>
-  <Period id="4" duration="PT30S">
+  <Period id="4" duration="PT11.981496594S">
     <AdaptationSet mimeType="audio/mp4" startWithSAP="1" segmentAlignment="true" lang="en">
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init4.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="719" timescale="44100">
+      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/init4.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/segment$Number$.m4f" startNumber="719" timescale="44100">
         <SegmentTimeline>
-          <S d="88064" r="14"></S>
-          <S d="2048"></S>
+          <S d="88064" r="5"></S>
         </SegmentTimeline>
       </SegmentTemplate>
-      <Representation audioSamplingRate="44100" bandwidth="64000" codecs="mp4a.40.2" id="default_audio64_5_en_main"></Representation>
       <Representation audioSamplingRate="44100" bandwidth="96000" codecs="mp4a.40.2" id="default_audio96_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="128000" codecs="mp4a.40.2" id="default_audio128_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="192000" codecs="mp4a.40.2" id="default_audio192_2_en_main"></Representation>
-    </AdaptationSet>
-    <AdaptationSet mimeType="text/vtt" lang="en">
-      <Representation bandwidth="256" id="subtitle_en">
-        <BaseURL>https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/a292ecf6-8d16-42b7-8fbc-8d1df2deec85/08a8e4b1-f7c5-45b2-8ca2-6ad47d8151d9.vtt</BaseURL>
-      </Representation>
     </AdaptationSet>
     <AdaptationSet mimeType="video/mp4" startWithSAP="1" scanType="progressive" segmentAlignment="true">
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init4.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="714" timescale="25">
+      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/init4.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/segment$Number$.m4f" startNumber="714" timescale="25">
         <SegmentTimeline>
-          <S d="50" r="14"></S>
+          <S d="50" r="5"></S>
         </SegmentTimeline>
       </SegmentTemplate>
-      <Representation bandwidth="449000" codecs="avc1.420015" frameRate="25/1" height="270" id="4460760524001_water450_3_480x270" width="480"></Representation>
       <Representation bandwidth="698000" codecs="avc1.42001e" frameRate="25/1" height="360" id="4460760524001_water700_3_640x360" width="640"></Representation>
-      <Representation bandwidth="899000" codecs="avc1.4d001e" frameRate="25/1" height="360" id="4460760524001_water900_3_640x360" width="640"></Representation>
-      <Representation bandwidth="1198000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1200_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1698000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1700_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1996000" codecs="avc1.4d001f" frameRate="25/1" height="720" id="4460760524001_water2000_3_1280x720" width="1280"></Representation>
     </AdaptationSet>
   </Period>
-  <Period id="5" duration="PT31.997097493S">
+  <Period id="5" duration="PT9M1S">
     <AdaptationSet mimeType="audio/mp4" startWithSAP="1" segmentAlignment="true" lang="en">
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init5.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="735" timescale="44100">
-        <SegmentTimeline>
-          <S d="88064" r="15"></S>
-          <S d="2048"></S>
-        </SegmentTimeline>
-      </SegmentTemplate>
-      <Representation audioSamplingRate="44100" bandwidth="64000" codecs="mp4a.40.2" id="default_audio64_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="96000" codecs="mp4a.40.2" id="default_audio96_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="128000" codecs="mp4a.40.2" id="default_audio128_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="192000" codecs="mp4a.40.2" id="default_audio192_2_en_main"></Representation>
-    </AdaptationSet>
-    <AdaptationSet mimeType="text/vtt" lang="en">
-      <Representation bandwidth="256" id="subtitle_en">
-        <BaseURL>https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/a292ecf6-8d16-42b7-8fbc-8d1df2deec85/08a8e4b1-f7c5-45b2-8ca2-6ad47d8151d9.vtt</BaseURL>
-      </Representation>
-    </AdaptationSet>
-    <AdaptationSet mimeType="video/mp4" startWithSAP="1" scanType="progressive" segmentAlignment="true">
-      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init5.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="729" timescale="25">
-        <SegmentTimeline>
-          <S d="50" r="15"></S>
-        </SegmentTimeline>
-      </SegmentTemplate>
-      <Representation bandwidth="449000" codecs="avc1.420015" frameRate="25/1" height="270" id="4460760524001_water450_3_480x270" width="480"></Representation>
-      <Representation bandwidth="698000" codecs="avc1.42001e" frameRate="25/1" height="360" id="4460760524001_water700_3_640x360" width="640"></Representation>
-      <Representation bandwidth="899000" codecs="avc1.4d001e" frameRate="25/1" height="360" id="4460760524001_water900_3_640x360" width="640"></Representation>
-      <Representation bandwidth="1198000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1200_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1698000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1700_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1996000" codecs="avc1.4d001f" frameRate="25/1" height="720" id="4460760524001_water2000_3_1280x720" width="1280"></Representation>
-    </AdaptationSet>
-  </Period>
-  <Period id="6" duration="PT15.998548747S">
-    <AdaptationSet mimeType="audio/mp4" startWithSAP="1" segmentAlignment="true" lang="en">
-      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init6.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="752" timescale="44100">
-        <SegmentTimeline>
-          <S d="88064" r="7"></S>
-          <S d="1024"></S>
-        </SegmentTimeline>
-      </SegmentTemplate>
-      <Representation audioSamplingRate="44100" bandwidth="64000" codecs="mp4a.40.2" id="default_audio64_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="96000" codecs="mp4a.40.2" id="default_audio96_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="128000" codecs="mp4a.40.2" id="default_audio128_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="192000" codecs="mp4a.40.2" id="default_audio192_2_en_main"></Representation>
-    </AdaptationSet>
-    <AdaptationSet mimeType="text/vtt" lang="en">
-      <Representation bandwidth="256" id="subtitle_en">
-        <BaseURL>https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/a292ecf6-8d16-42b7-8fbc-8d1df2deec85/08a8e4b1-f7c5-45b2-8ca2-6ad47d8151d9.vtt</BaseURL>
-      </Representation>
-    </AdaptationSet>
-    <AdaptationSet mimeType="video/mp4" startWithSAP="1" scanType="progressive" segmentAlignment="true">
-      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init6.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="745" timescale="25">
-        <SegmentTimeline>
-          <S d="50" r="7"></S>
-        </SegmentTimeline>
-      </SegmentTemplate>
-      <Representation bandwidth="449000" codecs="avc1.420015" frameRate="25/1" height="270" id="4460760524001_water450_3_480x270" width="480"></Representation>
-      <Representation bandwidth="698000" codecs="avc1.42001e" frameRate="25/1" height="360" id="4460760524001_water700_3_640x360" width="640"></Representation>
-      <Representation bandwidth="899000" codecs="avc1.4d001e" frameRate="25/1" height="360" id="4460760524001_water900_3_640x360" width="640"></Representation>
-      <Representation bandwidth="1198000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1200_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1698000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1700_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1996000" codecs="avc1.4d001f" frameRate="25/1" height="720" id="4460760524001_water2000_3_1280x720" width="1280"></Representation>
-    </AdaptationSet>
-  </Period>
-  <Period id="7" duration="PT21.989297044S">
-    <AdaptationSet mimeType="audio/mp4" startWithSAP="1" segmentAlignment="true" lang="en">
-      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init7.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="761" timescale="44100">
-        <SegmentTimeline>
-          <S d="88064" r="10"></S>
-          <S d="1024"></S>
-        </SegmentTimeline>
-      </SegmentTemplate>
-      <Representation audioSamplingRate="44100" bandwidth="64000" codecs="mp4a.40.2" id="default_audio64_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="96000" codecs="mp4a.40.2" id="default_audio96_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="128000" codecs="mp4a.40.2" id="default_audio128_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="192000" codecs="mp4a.40.2" id="default_audio192_2_en_main"></Representation>
-    </AdaptationSet>
-    <AdaptationSet mimeType="text/vtt" lang="en">
-      <Representation bandwidth="256" id="subtitle_en">
-        <BaseURL>https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/a292ecf6-8d16-42b7-8fbc-8d1df2deec85/08a8e4b1-f7c5-45b2-8ca2-6ad47d8151d9.vtt</BaseURL>
-      </Representation>
-    </AdaptationSet>
-    <AdaptationSet mimeType="video/mp4" startWithSAP="1" scanType="progressive" segmentAlignment="true">
-      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init7.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="753" timescale="25">
-        <SegmentTimeline>
-          <S d="50" r="10"></S>
-        </SegmentTimeline>
-      </SegmentTemplate>
-      <Representation bandwidth="449000" codecs="avc1.420015" frameRate="25/1" height="270" id="4460760524001_water450_3_480x270" width="480"></Representation>
-      <Representation bandwidth="698000" codecs="avc1.42001e" frameRate="25/1" height="360" id="4460760524001_water700_3_640x360" width="640"></Representation>
-      <Representation bandwidth="899000" codecs="avc1.4d001e" frameRate="25/1" height="360" id="4460760524001_water900_3_640x360" width="640"></Representation>
-      <Representation bandwidth="1198000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1200_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1698000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1700_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1996000" codecs="avc1.4d001f" frameRate="25/1" height="720" id="4460760524001_water2000_3_1280x720" width="1280"></Representation>
-    </AdaptationSet>
-  </Period>
-  <Period id="8" duration="PT9M1S">
-    <AdaptationSet mimeType="audio/mp4" startWithSAP="1" segmentAlignment="true" lang="en">
-      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate presentationTimeOffset="58917888" initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init8.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="773" timescale="44100">
+      <SegmentTemplate presentationTimeOffset="58917888" initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/init5.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/segment$Number$.m4f" startNumber="725" timescale="44100">
         <SegmentTimeline>
           <S t="58917888" d="86016"></S>
           <S d="88064" r="268"></S>
           <S d="83968"></S>
         </SegmentTimeline>
       </SegmentTemplate>
-      <Representation audioSamplingRate="44100" bandwidth="64000" codecs="mp4a.40.2" id="default_audio64_5_en_main"></Representation>
       <Representation audioSamplingRate="44100" bandwidth="96000" codecs="mp4a.40.2" id="default_audio96_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="128000" codecs="mp4a.40.2" id="default_audio128_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="192000" codecs="mp4a.40.2" id="default_audio192_2_en_main"></Representation>
-    </AdaptationSet>
-    <AdaptationSet mimeType="text/vtt" lang="en">
-      <Representation bandwidth="256" id="subtitle_en">
-        <BaseURL>https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/a292ecf6-8d16-42b7-8fbc-8d1df2deec85/08a8e4b1-f7c5-45b2-8ca2-6ad47d8151d9.vtt</BaseURL>
-      </Representation>
     </AdaptationSet>
     <AdaptationSet mimeType="video/mp4" startWithSAP="1" scanType="progressive" segmentAlignment="true">
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate presentationTimeOffset="33400" initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init8.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="764" timescale="25">
+      <SegmentTemplate presentationTimeOffset="33400" initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/init5.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/segment$Number$.m4f" startNumber="720" timescale="25">
         <SegmentTimeline>
           <S t="33400" d="50" r="269"></S>
           <S d="25"></S>
         </SegmentTimeline>
       </SegmentTemplate>
-      <Representation bandwidth="449000" codecs="avc1.420015" frameRate="25/1" height="270" id="4460760524001_water450_3_480x270" width="480"></Representation>
       <Representation bandwidth="698000" codecs="avc1.42001e" frameRate="25/1" height="360" id="4460760524001_water700_3_640x360" width="640"></Representation>
-      <Representation bandwidth="899000" codecs="avc1.4d001e" frameRate="25/1" height="360" id="4460760524001_water900_3_640x360" width="640"></Representation>
-      <Representation bandwidth="1198000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1200_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1698000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1700_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1996000" codecs="avc1.4d001f" frameRate="25/1" height="720" id="4460760524001_water2000_3_1280x720" width="1280"></Representation>
     </AdaptationSet>
   </Period>
-  <Period id="9" duration="PT30S">
+  <Period id="6" duration="PT29.976961439S">
     <AdaptationSet mimeType="audio/mp4" startWithSAP="1" segmentAlignment="true" lang="en">
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init9.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="1044" timescale="44100">
+      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/init6.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/segment$Number$.m4f" startNumber="996" timescale="44100">
         <SegmentTimeline>
           <S d="88064" r="14"></S>
-          <S d="2048"></S>
-        </SegmentTimeline>
-      </SegmentTemplate>
-      <Representation audioSamplingRate="44100" bandwidth="64000" codecs="mp4a.40.2" id="default_audio64_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="96000" codecs="mp4a.40.2" id="default_audio96_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="128000" codecs="mp4a.40.2" id="default_audio128_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="192000" codecs="mp4a.40.2" id="default_audio192_2_en_main"></Representation>
-    </AdaptationSet>
-    <AdaptationSet mimeType="text/vtt" lang="en">
-      <Representation bandwidth="256" id="subtitle_en">
-        <BaseURL>https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/a292ecf6-8d16-42b7-8fbc-8d1df2deec85/08a8e4b1-f7c5-45b2-8ca2-6ad47d8151d9.vtt</BaseURL>
-      </Representation>
-    </AdaptationSet>
-    <AdaptationSet mimeType="video/mp4" startWithSAP="1" scanType="progressive" segmentAlignment="true">
-      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init9.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="1035" timescale="25">
-        <SegmentTimeline>
-          <S d="50" r="14"></S>
-        </SegmentTimeline>
-      </SegmentTemplate>
-      <Representation bandwidth="449000" codecs="avc1.420015" frameRate="25/1" height="270" id="4460760524001_water450_3_480x270" width="480"></Representation>
-      <Representation bandwidth="698000" codecs="avc1.42001e" frameRate="25/1" height="360" id="4460760524001_water700_3_640x360" width="640"></Representation>
-      <Representation bandwidth="899000" codecs="avc1.4d001e" frameRate="25/1" height="360" id="4460760524001_water900_3_640x360" width="640"></Representation>
-      <Representation bandwidth="1198000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1200_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1698000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1700_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1996000" codecs="avc1.4d001f" frameRate="25/1" height="720" id="4460760524001_water2000_3_1280x720" width="1280"></Representation>
-    </AdaptationSet>
-  </Period>
-  <Period id="10" duration="PT31.997097493S">
-    <AdaptationSet mimeType="audio/mp4" startWithSAP="1" segmentAlignment="true" lang="en">
-      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init10.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="1060" timescale="44100">
-        <SegmentTimeline>
-          <S d="88064" r="15"></S>
-          <S d="2048"></S>
-        </SegmentTimeline>
-      </SegmentTemplate>
-      <Representation audioSamplingRate="44100" bandwidth="64000" codecs="mp4a.40.2" id="default_audio64_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="96000" codecs="mp4a.40.2" id="default_audio96_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="128000" codecs="mp4a.40.2" id="default_audio128_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="192000" codecs="mp4a.40.2" id="default_audio192_2_en_main"></Representation>
-    </AdaptationSet>
-    <AdaptationSet mimeType="text/vtt" lang="en">
-      <Representation bandwidth="256" id="subtitle_en">
-        <BaseURL>https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/a292ecf6-8d16-42b7-8fbc-8d1df2deec85/08a8e4b1-f7c5-45b2-8ca2-6ad47d8151d9.vtt</BaseURL>
-      </Representation>
-    </AdaptationSet>
-    <AdaptationSet mimeType="video/mp4" startWithSAP="1" scanType="progressive" segmentAlignment="true">
-      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init10.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="1050" timescale="25">
-        <SegmentTimeline>
-          <S d="50" r="15"></S>
-        </SegmentTimeline>
-      </SegmentTemplate>
-      <Representation bandwidth="449000" codecs="avc1.420015" frameRate="25/1" height="270" id="4460760524001_water450_3_480x270" width="480"></Representation>
-      <Representation bandwidth="698000" codecs="avc1.42001e" frameRate="25/1" height="360" id="4460760524001_water700_3_640x360" width="640"></Representation>
-      <Representation bandwidth="899000" codecs="avc1.4d001e" frameRate="25/1" height="360" id="4460760524001_water900_3_640x360" width="640"></Representation>
-      <Representation bandwidth="1198000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1200_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1698000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1700_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1996000" codecs="avc1.4d001f" frameRate="25/1" height="720" id="4460760524001_water2000_3_1280x720" width="1280"></Representation>
-    </AdaptationSet>
-  </Period>
-  <Period id="11" duration="PT15.998548747S">
-    <AdaptationSet mimeType="audio/mp4" startWithSAP="1" segmentAlignment="true" lang="en">
-      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init11.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="1077" timescale="44100">
-        <SegmentTimeline>
-          <S d="88064" r="7"></S>
           <S d="1024"></S>
         </SegmentTimeline>
       </SegmentTemplate>
-      <Representation audioSamplingRate="44100" bandwidth="64000" codecs="mp4a.40.2" id="default_audio64_5_en_main"></Representation>
       <Representation audioSamplingRate="44100" bandwidth="96000" codecs="mp4a.40.2" id="default_audio96_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="128000" codecs="mp4a.40.2" id="default_audio128_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="192000" codecs="mp4a.40.2" id="default_audio192_2_en_main"></Representation>
-    </AdaptationSet>
-    <AdaptationSet mimeType="text/vtt" lang="en">
-      <Representation bandwidth="256" id="subtitle_en">
-        <BaseURL>https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/a292ecf6-8d16-42b7-8fbc-8d1df2deec85/08a8e4b1-f7c5-45b2-8ca2-6ad47d8151d9.vtt</BaseURL>
-      </Representation>
     </AdaptationSet>
     <AdaptationSet mimeType="video/mp4" startWithSAP="1" scanType="progressive" segmentAlignment="true">
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init11.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="1066" timescale="25">
-        <SegmentTimeline>
-          <S d="50" r="7"></S>
-        </SegmentTimeline>
-      </SegmentTemplate>
-      <Representation bandwidth="449000" codecs="avc1.420015" frameRate="25/1" height="270" id="4460760524001_water450_3_480x270" width="480"></Representation>
-      <Representation bandwidth="698000" codecs="avc1.42001e" frameRate="25/1" height="360" id="4460760524001_water700_3_640x360" width="640"></Representation>
-      <Representation bandwidth="899000" codecs="avc1.4d001e" frameRate="25/1" height="360" id="4460760524001_water900_3_640x360" width="640"></Representation>
-      <Representation bandwidth="1198000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1200_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1698000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1700_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1996000" codecs="avc1.4d001f" frameRate="25/1" height="720" id="4460760524001_water2000_3_1280x720" width="1280"></Representation>
-    </AdaptationSet>
-  </Period>
-  <Period id="12" duration="PT30S">
-    <AdaptationSet mimeType="audio/mp4" startWithSAP="1" segmentAlignment="true" lang="en">
-      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init12.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="1086" timescale="44100">
-        <SegmentTimeline>
-          <S d="88064" r="14"></S>
-          <S d="2048"></S>
-        </SegmentTimeline>
-      </SegmentTemplate>
-      <Representation audioSamplingRate="44100" bandwidth="64000" codecs="mp4a.40.2" id="default_audio64_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="96000" codecs="mp4a.40.2" id="default_audio96_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="128000" codecs="mp4a.40.2" id="default_audio128_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="192000" codecs="mp4a.40.2" id="default_audio192_2_en_main"></Representation>
-    </AdaptationSet>
-    <AdaptationSet mimeType="text/vtt" lang="en">
-      <Representation bandwidth="256" id="subtitle_en">
-        <BaseURL>https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/a292ecf6-8d16-42b7-8fbc-8d1df2deec85/08a8e4b1-f7c5-45b2-8ca2-6ad47d8151d9.vtt</BaseURL>
-      </Representation>
-    </AdaptationSet>
-    <AdaptationSet mimeType="video/mp4" startWithSAP="1" scanType="progressive" segmentAlignment="true">
-      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init12.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="1074" timescale="25">
+      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/init6.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/segment$Number$.m4f" startNumber="991" timescale="25">
         <SegmentTimeline>
           <S d="50" r="14"></S>
         </SegmentTimeline>
       </SegmentTemplate>
-      <Representation bandwidth="449000" codecs="avc1.420015" frameRate="25/1" height="270" id="4460760524001_water450_3_480x270" width="480"></Representation>
       <Representation bandwidth="698000" codecs="avc1.42001e" frameRate="25/1" height="360" id="4460760524001_water700_3_640x360" width="640"></Representation>
-      <Representation bandwidth="899000" codecs="avc1.4d001e" frameRate="25/1" height="360" id="4460760524001_water900_3_640x360" width="640"></Representation>
-      <Representation bandwidth="1198000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1200_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1698000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1700_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1996000" codecs="avc1.4d001f" frameRate="25/1" height="720" id="4460760524001_water2000_3_1280x720" width="1280"></Representation>
     </AdaptationSet>
   </Period>
-  <Period id="13" duration="PT42S">
+  <Period id="7" duration="PT1M0S">
     <AdaptationSet mimeType="audio/mp4" startWithSAP="1" segmentAlignment="true" lang="en">
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init13.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="1102" timescale="44100">
+      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/init7.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/segment$Number$.m4f" startNumber="1012" timescale="44100">
         <SegmentTimeline>
-          <S d="88064" r="20"></S>
-          <S d="3072"></S>
+          <S d="88064" r="29"></S>
+          <S d="4096"></S>
         </SegmentTimeline>
       </SegmentTemplate>
-      <Representation audioSamplingRate="44100" bandwidth="64000" codecs="mp4a.40.2" id="default_audio64_5_en_main"></Representation>
       <Representation audioSamplingRate="44100" bandwidth="96000" codecs="mp4a.40.2" id="default_audio96_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="128000" codecs="mp4a.40.2" id="default_audio128_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="192000" codecs="mp4a.40.2" id="default_audio192_2_en_main"></Representation>
-    </AdaptationSet>
-    <AdaptationSet mimeType="text/vtt" lang="en">
-      <Representation bandwidth="256" id="subtitle_en">
-        <BaseURL>https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/a292ecf6-8d16-42b7-8fbc-8d1df2deec85/08a8e4b1-f7c5-45b2-8ca2-6ad47d8151d9.vtt</BaseURL>
-      </Representation>
     </AdaptationSet>
     <AdaptationSet mimeType="video/mp4" startWithSAP="1" scanType="progressive" segmentAlignment="true">
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init13.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="1089" timescale="25">
+      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/init7.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/segment$Number$.m4f" startNumber="1006" timescale="25">
         <SegmentTimeline>
-          <S d="50" r="20"></S>
+          <S d="50" r="29"></S>
         </SegmentTimeline>
       </SegmentTemplate>
-      <Representation bandwidth="449000" codecs="avc1.420015" frameRate="25/1" height="270" id="4460760524001_water450_3_480x270" width="480"></Representation>
       <Representation bandwidth="698000" codecs="avc1.42001e" frameRate="25/1" height="360" id="4460760524001_water700_3_640x360" width="640"></Representation>
-      <Representation bandwidth="899000" codecs="avc1.4d001e" frameRate="25/1" height="360" id="4460760524001_water900_3_640x360" width="640"></Representation>
-      <Representation bandwidth="1198000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1200_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1698000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1700_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1996000" codecs="avc1.4d001f" frameRate="25/1" height="720" id="4460760524001_water2000_3_1280x720" width="1280"></Representation>
     </AdaptationSet>
   </Period>
-  <Period id="14" duration="PT8M14S">
+  <Period id="8" duration="PT22S">
     <AdaptationSet mimeType="audio/mp4" startWithSAP="1" segmentAlignment="true" lang="en">
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate presentationTimeOffset="82777088" initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init14.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="1124" timescale="44100">
+      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/init8.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/segment$Number$.m4f" startNumber="1043" timescale="44100">
+        <SegmentTimeline>
+          <S d="88064" r="10"></S>
+          <S d="2048"></S>
+        </SegmentTimeline>
+      </SegmentTemplate>
+      <Representation audioSamplingRate="44100" bandwidth="96000" codecs="mp4a.40.2" id="default_audio96_5_en_main"></Representation>
+    </AdaptationSet>
+    <AdaptationSet mimeType="video/mp4" startWithSAP="1" scanType="progressive" segmentAlignment="true">
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
+      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/init8.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/segment$Number$.m4f" startNumber="1036" timescale="25">
+        <SegmentTimeline>
+          <S d="50" r="10"></S>
+        </SegmentTimeline>
+      </SegmentTemplate>
+      <Representation bandwidth="698000" codecs="avc1.42001e" frameRate="25/1" height="360" id="4460760524001_water700_3_640x360" width="640"></Representation>
+    </AdaptationSet>
+  </Period>
+  <Period id="9" duration="PT8M14S">
+    <AdaptationSet mimeType="audio/mp4" startWithSAP="1" segmentAlignment="true" lang="en">
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
+      <SegmentTemplate presentationTimeOffset="82777088" initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/init9.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/segment$Number$.m4f" startNumber="1055" timescale="44100">
         <SegmentTimeline>
           <S t="82777088" d="5120"></S>
           <S d="88064" r="246"></S>
           <S d="29696"></S>
         </SegmentTimeline>
       </SegmentTemplate>
-      <Representation audioSamplingRate="44100" bandwidth="64000" codecs="mp4a.40.2" id="default_audio64_5_en_main"></Representation>
       <Representation audioSamplingRate="44100" bandwidth="96000" codecs="mp4a.40.2" id="default_audio96_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="128000" codecs="mp4a.40.2" id="default_audio128_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="192000" codecs="mp4a.40.2" id="default_audio192_2_en_main"></Representation>
-    </AdaptationSet>
-    <AdaptationSet mimeType="text/vtt" lang="en">
-      <Representation bandwidth="256" id="subtitle_en">
-        <BaseURL>https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/a292ecf6-8d16-42b7-8fbc-8d1df2deec85/08a8e4b1-f7c5-45b2-8ca2-6ad47d8151d9.vtt</BaseURL>
-      </Representation>
     </AdaptationSet>
     <AdaptationSet mimeType="video/mp4" startWithSAP="1" scanType="progressive" segmentAlignment="true">
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate presentationTimeOffset="46925" initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init14.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="1110" timescale="25">
+      <SegmentTemplate presentationTimeOffset="46925" initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/init9.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/segment$Number$.m4f" startNumber="1047" timescale="25">
         <SegmentTimeline>
           <S t="46925" d="25"></S>
           <S d="50" r="245"></S>
           <S d="25"></S>
         </SegmentTimeline>
       </SegmentTemplate>
-      <Representation bandwidth="449000" codecs="avc1.420015" frameRate="25/1" height="270" id="4460760524001_water450_3_480x270" width="480"></Representation>
       <Representation bandwidth="698000" codecs="avc1.42001e" frameRate="25/1" height="360" id="4460760524001_water700_3_640x360" width="640"></Representation>
-      <Representation bandwidth="899000" codecs="avc1.4d001e" frameRate="25/1" height="360" id="4460760524001_water900_3_640x360" width="640"></Representation>
-      <Representation bandwidth="1198000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1200_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1698000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1700_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1996000" codecs="avc1.4d001f" frameRate="25/1" height="720" id="4460760524001_water2000_3_1280x720" width="1280"></Representation>
     </AdaptationSet>
   </Period>
-  <Period id="15" duration="PT30S">
+  <Period id="10" duration="PT30S">
     <AdaptationSet mimeType="audio/mp4" startWithSAP="1" segmentAlignment="true" lang="en">
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init15.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="1373" timescale="44100">
+      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/init10.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/segment$Number$.m4f" startNumber="1304" timescale="44100">
         <SegmentTimeline>
           <S d="88064" r="14"></S>
           <S d="2048"></S>
         </SegmentTimeline>
       </SegmentTemplate>
-      <Representation audioSamplingRate="44100" bandwidth="64000" codecs="mp4a.40.2" id="default_audio64_5_en_main"></Representation>
       <Representation audioSamplingRate="44100" bandwidth="96000" codecs="mp4a.40.2" id="default_audio96_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="128000" codecs="mp4a.40.2" id="default_audio128_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="192000" codecs="mp4a.40.2" id="default_audio192_2_en_main"></Representation>
-    </AdaptationSet>
-    <AdaptationSet mimeType="text/vtt" lang="en">
-      <Representation bandwidth="256" id="subtitle_en">
-        <BaseURL>https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/a292ecf6-8d16-42b7-8fbc-8d1df2deec85/08a8e4b1-f7c5-45b2-8ca2-6ad47d8151d9.vtt</BaseURL>
-      </Representation>
     </AdaptationSet>
     <AdaptationSet mimeType="video/mp4" startWithSAP="1" scanType="progressive" segmentAlignment="true">
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init15.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="1358" timescale="25">
+      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/init10.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/segment$Number$.m4f" startNumber="1295" timescale="25">
         <SegmentTimeline>
           <S d="50" r="14"></S>
         </SegmentTimeline>
       </SegmentTemplate>
-      <Representation bandwidth="449000" codecs="avc1.420015" frameRate="25/1" height="270" id="4460760524001_water450_3_480x270" width="480"></Representation>
       <Representation bandwidth="698000" codecs="avc1.42001e" frameRate="25/1" height="360" id="4460760524001_water700_3_640x360" width="640"></Representation>
-      <Representation bandwidth="899000" codecs="avc1.4d001e" frameRate="25/1" height="360" id="4460760524001_water900_3_640x360" width="640"></Representation>
-      <Representation bandwidth="1198000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1200_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1698000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1700_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1996000" codecs="avc1.4d001f" frameRate="25/1" height="720" id="4460760524001_water2000_3_1280x720" width="1280"></Representation>
     </AdaptationSet>
   </Period>
-  <Period id="16" duration="PT31.997097493S">
+  <Period id="11" duration="PT21.989297044S">
     <AdaptationSet mimeType="audio/mp4" startWithSAP="1" segmentAlignment="true" lang="en">
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init16.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="1389" timescale="44100">
+      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/init11.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/segment$Number$.m4f" startNumber="1320" timescale="44100">
         <SegmentTimeline>
-          <S d="88064" r="15"></S>
-          <S d="2048"></S>
+          <S d="88064" r="10"></S>
+          <S d="1024"></S>
         </SegmentTimeline>
       </SegmentTemplate>
-      <Representation audioSamplingRate="44100" bandwidth="64000" codecs="mp4a.40.2" id="default_audio64_5_en_main"></Representation>
       <Representation audioSamplingRate="44100" bandwidth="96000" codecs="mp4a.40.2" id="default_audio96_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="128000" codecs="mp4a.40.2" id="default_audio128_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="192000" codecs="mp4a.40.2" id="default_audio192_2_en_main"></Representation>
-    </AdaptationSet>
-    <AdaptationSet mimeType="text/vtt" lang="en">
-      <Representation bandwidth="256" id="subtitle_en">
-        <BaseURL>https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/a292ecf6-8d16-42b7-8fbc-8d1df2deec85/08a8e4b1-f7c5-45b2-8ca2-6ad47d8151d9.vtt</BaseURL>
-      </Representation>
     </AdaptationSet>
     <AdaptationSet mimeType="video/mp4" startWithSAP="1" scanType="progressive" segmentAlignment="true">
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init16.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="1373" timescale="25">
+      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/init11.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/segment$Number$.m4f" startNumber="1310" timescale="25">
         <SegmentTimeline>
-          <S d="50" r="15"></S>
+          <S d="50" r="10"></S>
         </SegmentTimeline>
       </SegmentTemplate>
-      <Representation bandwidth="449000" codecs="avc1.420015" frameRate="25/1" height="270" id="4460760524001_water450_3_480x270" width="480"></Representation>
       <Representation bandwidth="698000" codecs="avc1.42001e" frameRate="25/1" height="360" id="4460760524001_water700_3_640x360" width="640"></Representation>
-      <Representation bandwidth="899000" codecs="avc1.4d001e" frameRate="25/1" height="360" id="4460760524001_water900_3_640x360" width="640"></Representation>
-      <Representation bandwidth="1198000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1200_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1698000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1700_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1996000" codecs="avc1.4d001f" frameRate="25/1" height="720" id="4460760524001_water2000_3_1280x720" width="1280"></Representation>
     </AdaptationSet>
   </Period>
-  <Period id="17" duration="PT30S">
+  <Period id="12" duration="PT42S">
     <AdaptationSet mimeType="audio/mp4" startWithSAP="1" segmentAlignment="true" lang="en">
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init17.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="1406" timescale="44100">
-        <SegmentTimeline>
-          <S d="88064" r="14"></S>
-          <S d="2048"></S>
-        </SegmentTimeline>
-      </SegmentTemplate>
-      <Representation audioSamplingRate="44100" bandwidth="64000" codecs="mp4a.40.2" id="default_audio64_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="96000" codecs="mp4a.40.2" id="default_audio96_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="128000" codecs="mp4a.40.2" id="default_audio128_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="192000" codecs="mp4a.40.2" id="default_audio192_2_en_main"></Representation>
-    </AdaptationSet>
-    <AdaptationSet mimeType="text/vtt" lang="en">
-      <Representation bandwidth="256" id="subtitle_en">
-        <BaseURL>https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/a292ecf6-8d16-42b7-8fbc-8d1df2deec85/08a8e4b1-f7c5-45b2-8ca2-6ad47d8151d9.vtt</BaseURL>
-      </Representation>
-    </AdaptationSet>
-    <AdaptationSet mimeType="video/mp4" startWithSAP="1" scanType="progressive" segmentAlignment="true">
-      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init17.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="1389" timescale="25">
-        <SegmentTimeline>
-          <S d="50" r="14"></S>
-        </SegmentTimeline>
-      </SegmentTemplate>
-      <Representation bandwidth="449000" codecs="avc1.420015" frameRate="25/1" height="270" id="4460760524001_water450_3_480x270" width="480"></Representation>
-      <Representation bandwidth="698000" codecs="avc1.42001e" frameRate="25/1" height="360" id="4460760524001_water700_3_640x360" width="640"></Representation>
-      <Representation bandwidth="899000" codecs="avc1.4d001e" frameRate="25/1" height="360" id="4460760524001_water900_3_640x360" width="640"></Representation>
-      <Representation bandwidth="1198000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1200_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1698000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1700_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1996000" codecs="avc1.4d001f" frameRate="25/1" height="720" id="4460760524001_water2000_3_1280x720" width="1280"></Representation>
-    </AdaptationSet>
-  </Period>
-  <Period id="18" duration="PT42S">
-    <AdaptationSet mimeType="audio/mp4" startWithSAP="1" segmentAlignment="true" lang="en">
-      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init18.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="1422" timescale="44100">
+      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/init12.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/segment$Number$.m4f" startNumber="1332" timescale="44100">
         <SegmentTimeline>
           <S d="88064" r="20"></S>
           <S d="3072"></S>
         </SegmentTimeline>
       </SegmentTemplate>
-      <Representation audioSamplingRate="44100" bandwidth="64000" codecs="mp4a.40.2" id="default_audio64_5_en_main"></Representation>
       <Representation audioSamplingRate="44100" bandwidth="96000" codecs="mp4a.40.2" id="default_audio96_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="128000" codecs="mp4a.40.2" id="default_audio128_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="192000" codecs="mp4a.40.2" id="default_audio192_2_en_main"></Representation>
-    </AdaptationSet>
-    <AdaptationSet mimeType="text/vtt" lang="en">
-      <Representation bandwidth="256" id="subtitle_en">
-        <BaseURL>https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/a292ecf6-8d16-42b7-8fbc-8d1df2deec85/08a8e4b1-f7c5-45b2-8ca2-6ad47d8151d9.vtt</BaseURL>
-      </Representation>
     </AdaptationSet>
     <AdaptationSet mimeType="video/mp4" startWithSAP="1" scanType="progressive" segmentAlignment="true">
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init18.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="1404" timescale="25">
+      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/init12.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/segment$Number$.m4f" startNumber="1321" timescale="25">
         <SegmentTimeline>
           <S d="50" r="20"></S>
         </SegmentTimeline>
       </SegmentTemplate>
-      <Representation bandwidth="449000" codecs="avc1.420015" frameRate="25/1" height="270" id="4460760524001_water450_3_480x270" width="480"></Representation>
       <Representation bandwidth="698000" codecs="avc1.42001e" frameRate="25/1" height="360" id="4460760524001_water700_3_640x360" width="640"></Representation>
-      <Representation bandwidth="899000" codecs="avc1.4d001e" frameRate="25/1" height="360" id="4460760524001_water900_3_640x360" width="640"></Representation>
-      <Representation bandwidth="1198000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1200_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1698000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1700_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1996000" codecs="avc1.4d001f" frameRate="25/1" height="720" id="4460760524001_water2000_3_1280x720" width="1280"></Representation>
     </AdaptationSet>
   </Period>
-  <Period id="19" duration="PT13M3S">
+  <Period id="13" duration="PT13M3S">
     <AdaptationSet mimeType="audio/mp4" startWithSAP="1" segmentAlignment="true" lang="en">
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate presentationTimeOffset="104563712" initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init19.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="1444" timescale="44100">
+      <SegmentTemplate presentationTimeOffset="104563712" initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/init13.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/segment$Number$.m4f" startNumber="1354" timescale="44100">
         <SegmentTimeline>
           <S t="104563712" d="59392"></S>
           <S d="88064" r="390"></S>
           <S d="38912"></S>
         </SegmentTimeline>
       </SegmentTemplate>
-      <Representation audioSamplingRate="44100" bandwidth="64000" codecs="mp4a.40.2" id="default_audio64_5_en_main"></Representation>
       <Representation audioSamplingRate="44100" bandwidth="96000" codecs="mp4a.40.2" id="default_audio96_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="128000" codecs="mp4a.40.2" id="default_audio128_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="192000" codecs="mp4a.40.2" id="default_audio192_2_en_main"></Representation>
-    </AdaptationSet>
-    <AdaptationSet mimeType="text/vtt" lang="en">
-      <Representation bandwidth="256" id="subtitle_en">
-        <BaseURL>https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/a292ecf6-8d16-42b7-8fbc-8d1df2deec85/08a8e4b1-f7c5-45b2-8ca2-6ad47d8151d9.vtt</BaseURL>
-      </Representation>
     </AdaptationSet>
     <AdaptationSet mimeType="video/mp4" startWithSAP="1" scanType="progressive" segmentAlignment="true">
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate presentationTimeOffset="59275" initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init19.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="1425" timescale="25">
+      <SegmentTemplate presentationTimeOffset="59275" initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/init13.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/segment$Number$.m4f" startNumber="1342" timescale="25">
         <SegmentTimeline>
           <S t="59275" d="25"></S>
           <S d="50" r="390"></S>
         </SegmentTimeline>
       </SegmentTemplate>
-      <Representation bandwidth="449000" codecs="avc1.420015" frameRate="25/1" height="270" id="4460760524001_water450_3_480x270" width="480"></Representation>
       <Representation bandwidth="698000" codecs="avc1.42001e" frameRate="25/1" height="360" id="4460760524001_water700_3_640x360" width="640"></Representation>
-      <Representation bandwidth="899000" codecs="avc1.4d001e" frameRate="25/1" height="360" id="4460760524001_water900_3_640x360" width="640"></Representation>
-      <Representation bandwidth="1198000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1200_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1698000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1700_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1996000" codecs="avc1.4d001f" frameRate="25/1" height="720" id="4460760524001_water2000_3_1280x720" width="1280"></Representation>
     </AdaptationSet>
   </Period>
-  <Period id="20" duration="PT30S">
+  <Period id="14" duration="PT30S">
     <AdaptationSet mimeType="audio/mp4" startWithSAP="1" segmentAlignment="true" lang="en">
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init20.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="1837" timescale="44100">
+      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/init14.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/segment$Number$.m4f" startNumber="1747" timescale="44100">
         <SegmentTimeline>
           <S d="88064" r="14"></S>
           <S d="2048"></S>
         </SegmentTimeline>
       </SegmentTemplate>
-      <Representation audioSamplingRate="44100" bandwidth="64000" codecs="mp4a.40.2" id="default_audio64_5_en_main"></Representation>
       <Representation audioSamplingRate="44100" bandwidth="96000" codecs="mp4a.40.2" id="default_audio96_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="128000" codecs="mp4a.40.2" id="default_audio128_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="192000" codecs="mp4a.40.2" id="default_audio192_2_en_main"></Representation>
-    </AdaptationSet>
-    <AdaptationSet mimeType="text/vtt" lang="en">
-      <Representation bandwidth="256" id="subtitle_en">
-        <BaseURL>https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/a292ecf6-8d16-42b7-8fbc-8d1df2deec85/08a8e4b1-f7c5-45b2-8ca2-6ad47d8151d9.vtt</BaseURL>
-      </Representation>
     </AdaptationSet>
     <AdaptationSet mimeType="video/mp4" startWithSAP="1" scanType="progressive" segmentAlignment="true">
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init20.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="1817" timescale="25">
+      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/init14.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/segment$Number$.m4f" startNumber="1734" timescale="25">
         <SegmentTimeline>
           <S d="50" r="14"></S>
         </SegmentTimeline>
       </SegmentTemplate>
-      <Representation bandwidth="449000" codecs="avc1.420015" frameRate="25/1" height="270" id="4460760524001_water450_3_480x270" width="480"></Representation>
       <Representation bandwidth="698000" codecs="avc1.42001e" frameRate="25/1" height="360" id="4460760524001_water700_3_640x360" width="640"></Representation>
-      <Representation bandwidth="899000" codecs="avc1.4d001e" frameRate="25/1" height="360" id="4460760524001_water900_3_640x360" width="640"></Representation>
-      <Representation bandwidth="1198000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1200_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1698000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1700_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1996000" codecs="avc1.4d001f" frameRate="25/1" height="720" id="4460760524001_water2000_3_1280x720" width="1280"></Representation>
     </AdaptationSet>
   </Period>
-  <Period id="21" duration="PT31.997097493S">
+  <Period id="15" duration="PT30S">
     <AdaptationSet mimeType="audio/mp4" startWithSAP="1" segmentAlignment="true" lang="en">
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init21.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="1853" timescale="44100">
-        <SegmentTimeline>
-          <S d="88064" r="15"></S>
-          <S d="2048"></S>
-        </SegmentTimeline>
-      </SegmentTemplate>
-      <Representation audioSamplingRate="44100" bandwidth="64000" codecs="mp4a.40.2" id="default_audio64_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="96000" codecs="mp4a.40.2" id="default_audio96_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="128000" codecs="mp4a.40.2" id="default_audio128_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="192000" codecs="mp4a.40.2" id="default_audio192_2_en_main"></Representation>
-    </AdaptationSet>
-    <AdaptationSet mimeType="text/vtt" lang="en">
-      <Representation bandwidth="256" id="subtitle_en">
-        <BaseURL>https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/a292ecf6-8d16-42b7-8fbc-8d1df2deec85/08a8e4b1-f7c5-45b2-8ca2-6ad47d8151d9.vtt</BaseURL>
-      </Representation>
-    </AdaptationSet>
-    <AdaptationSet mimeType="video/mp4" startWithSAP="1" scanType="progressive" segmentAlignment="true">
-      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init21.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="1832" timescale="25">
-        <SegmentTimeline>
-          <S d="50" r="15"></S>
-        </SegmentTimeline>
-      </SegmentTemplate>
-      <Representation bandwidth="449000" codecs="avc1.420015" frameRate="25/1" height="270" id="4460760524001_water450_3_480x270" width="480"></Representation>
-      <Representation bandwidth="698000" codecs="avc1.42001e" frameRate="25/1" height="360" id="4460760524001_water700_3_640x360" width="640"></Representation>
-      <Representation bandwidth="899000" codecs="avc1.4d001e" frameRate="25/1" height="360" id="4460760524001_water900_3_640x360" width="640"></Representation>
-      <Representation bandwidth="1198000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1200_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1698000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1700_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1996000" codecs="avc1.4d001f" frameRate="25/1" height="720" id="4460760524001_water2000_3_1280x720" width="1280"></Representation>
-    </AdaptationSet>
-  </Period>
-  <Period id="22" duration="PT30S">
-    <AdaptationSet mimeType="audio/mp4" startWithSAP="1" segmentAlignment="true" lang="en">
-      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init22.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="1870" timescale="44100">
+      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/init15.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/segment$Number$.m4f" startNumber="1763" timescale="44100">
         <SegmentTimeline>
           <S d="88064" r="14"></S>
           <S d="2048"></S>
         </SegmentTimeline>
       </SegmentTemplate>
-      <Representation audioSamplingRate="44100" bandwidth="64000" codecs="mp4a.40.2" id="default_audio64_5_en_main"></Representation>
       <Representation audioSamplingRate="44100" bandwidth="96000" codecs="mp4a.40.2" id="default_audio96_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="128000" codecs="mp4a.40.2" id="default_audio128_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="192000" codecs="mp4a.40.2" id="default_audio192_2_en_main"></Representation>
-    </AdaptationSet>
-    <AdaptationSet mimeType="text/vtt" lang="en">
-      <Representation bandwidth="256" id="subtitle_en">
-        <BaseURL>https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/a292ecf6-8d16-42b7-8fbc-8d1df2deec85/08a8e4b1-f7c5-45b2-8ca2-6ad47d8151d9.vtt</BaseURL>
-      </Representation>
     </AdaptationSet>
     <AdaptationSet mimeType="video/mp4" startWithSAP="1" scanType="progressive" segmentAlignment="true">
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init22.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="1848" timescale="25">
+      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/init15.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/segment$Number$.m4f" startNumber="1749" timescale="25">
         <SegmentTimeline>
           <S d="50" r="14"></S>
         </SegmentTimeline>
       </SegmentTemplate>
-      <Representation bandwidth="449000" codecs="avc1.420015" frameRate="25/1" height="270" id="4460760524001_water450_3_480x270" width="480"></Representation>
       <Representation bandwidth="698000" codecs="avc1.42001e" frameRate="25/1" height="360" id="4460760524001_water700_3_640x360" width="640"></Representation>
-      <Representation bandwidth="899000" codecs="avc1.4d001e" frameRate="25/1" height="360" id="4460760524001_water900_3_640x360" width="640"></Representation>
-      <Representation bandwidth="1198000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1200_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1698000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1700_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1996000" codecs="avc1.4d001f" frameRate="25/1" height="720" id="4460760524001_water2000_3_1280x720" width="1280"></Representation>
     </AdaptationSet>
   </Period>
-  <Period id="23" duration="PT22S">
+  <Period id="16" duration="PT22S">
     <AdaptationSet mimeType="audio/mp4" startWithSAP="1" segmentAlignment="true" lang="en">
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init23.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="1886" timescale="44100">
+      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/init16.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/segment$Number$.m4f" startNumber="1779" timescale="44100">
         <SegmentTimeline>
           <S d="88064" r="10"></S>
           <S d="2048"></S>
         </SegmentTimeline>
       </SegmentTemplate>
-      <Representation audioSamplingRate="44100" bandwidth="64000" codecs="mp4a.40.2" id="default_audio64_5_en_main"></Representation>
       <Representation audioSamplingRate="44100" bandwidth="96000" codecs="mp4a.40.2" id="default_audio96_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="128000" codecs="mp4a.40.2" id="default_audio128_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="192000" codecs="mp4a.40.2" id="default_audio192_2_en_main"></Representation>
-    </AdaptationSet>
-    <AdaptationSet mimeType="text/vtt" lang="en">
-      <Representation bandwidth="256" id="subtitle_en">
-        <BaseURL>https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/a292ecf6-8d16-42b7-8fbc-8d1df2deec85/08a8e4b1-f7c5-45b2-8ca2-6ad47d8151d9.vtt</BaseURL>
-      </Representation>
     </AdaptationSet>
     <AdaptationSet mimeType="video/mp4" startWithSAP="1" scanType="progressive" segmentAlignment="true">
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init23.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="1863" timescale="25">
+      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/init16.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/segment$Number$.m4f" startNumber="1764" timescale="25">
         <SegmentTimeline>
           <S d="50" r="10"></S>
         </SegmentTimeline>
       </SegmentTemplate>
-      <Representation bandwidth="449000" codecs="avc1.420015" frameRate="25/1" height="270" id="4460760524001_water450_3_480x270" width="480"></Representation>
       <Representation bandwidth="698000" codecs="avc1.42001e" frameRate="25/1" height="360" id="4460760524001_water700_3_640x360" width="640"></Representation>
-      <Representation bandwidth="899000" codecs="avc1.4d001e" frameRate="25/1" height="360" id="4460760524001_water900_3_640x360" width="640"></Representation>
-      <Representation bandwidth="1198000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1200_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1698000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1700_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1996000" codecs="avc1.4d001f" frameRate="25/1" height="720" id="4460760524001_water2000_3_1280x720" width="1280"></Representation>
     </AdaptationSet>
   </Period>
-  <Period id="24" duration="PT5M24S">
+  <Period id="17" duration="PT5M24S">
     <AdaptationSet mimeType="audio/mp4" startWithSAP="1" segmentAlignment="true" lang="en">
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate presentationTimeOffset="139095040" initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init24.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="1898" timescale="44100">
+      <SegmentTemplate presentationTimeOffset="139095040" initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/init17.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/segment$Number$.m4f" startNumber="1791" timescale="44100">
         <SegmentTimeline>
           <S t="139095040" d="50176"></S>
           <S d="88064" r="160"></S>
           <S d="61440"></S>
         </SegmentTimeline>
       </SegmentTemplate>
-      <Representation audioSamplingRate="44100" bandwidth="64000" codecs="mp4a.40.2" id="default_audio64_5_en_main"></Representation>
       <Representation audioSamplingRate="44100" bandwidth="96000" codecs="mp4a.40.2" id="default_audio96_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="128000" codecs="mp4a.40.2" id="default_audio128_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="192000" codecs="mp4a.40.2" id="default_audio192_2_en_main"></Representation>
-    </AdaptationSet>
-    <AdaptationSet mimeType="text/vtt" lang="en">
-      <Representation bandwidth="256" id="subtitle_en">
-        <BaseURL>https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/a292ecf6-8d16-42b7-8fbc-8d1df2deec85/08a8e4b1-f7c5-45b2-8ca2-6ad47d8151d9.vtt</BaseURL>
-      </Representation>
     </AdaptationSet>
     <AdaptationSet mimeType="video/mp4" startWithSAP="1" scanType="progressive" segmentAlignment="true">
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate presentationTimeOffset="78850" initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init24.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="1874" timescale="25">
+      <SegmentTemplate presentationTimeOffset="78850" initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/init17.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/segment$Number$.m4f" startNumber="1775" timescale="25">
         <SegmentTimeline>
           <S t="78850" d="50" r="161"></S>
         </SegmentTimeline>
       </SegmentTemplate>
-      <Representation bandwidth="449000" codecs="avc1.420015" frameRate="25/1" height="270" id="4460760524001_water450_3_480x270" width="480"></Representation>
       <Representation bandwidth="698000" codecs="avc1.42001e" frameRate="25/1" height="360" id="4460760524001_water700_3_640x360" width="640"></Representation>
-      <Representation bandwidth="899000" codecs="avc1.4d001e" frameRate="25/1" height="360" id="4460760524001_water900_3_640x360" width="640"></Representation>
-      <Representation bandwidth="1198000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1200_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1698000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1700_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1996000" codecs="avc1.4d001f" frameRate="25/1" height="720" id="4460760524001_water2000_3_1280x720" width="1280"></Representation>
     </AdaptationSet>
   </Period>
-  <Period id="25" duration="PT30S">
+  <Period id="18" duration="PT30S">
     <AdaptationSet mimeType="audio/mp4" startWithSAP="1" segmentAlignment="true" lang="en">
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init25.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="2061" timescale="44100">
+      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/init18.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/segment$Number$.m4f" startNumber="1954" timescale="44100">
         <SegmentTimeline>
           <S d="88064" r="14"></S>
           <S d="2048"></S>
         </SegmentTimeline>
       </SegmentTemplate>
-      <Representation audioSamplingRate="44100" bandwidth="64000" codecs="mp4a.40.2" id="default_audio64_5_en_main"></Representation>
       <Representation audioSamplingRate="44100" bandwidth="96000" codecs="mp4a.40.2" id="default_audio96_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="128000" codecs="mp4a.40.2" id="default_audio128_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="192000" codecs="mp4a.40.2" id="default_audio192_2_en_main"></Representation>
-    </AdaptationSet>
-    <AdaptationSet mimeType="text/vtt" lang="en">
-      <Representation bandwidth="256" id="subtitle_en">
-        <BaseURL>https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/a292ecf6-8d16-42b7-8fbc-8d1df2deec85/08a8e4b1-f7c5-45b2-8ca2-6ad47d8151d9.vtt</BaseURL>
-      </Representation>
     </AdaptationSet>
     <AdaptationSet mimeType="video/mp4" startWithSAP="1" scanType="progressive" segmentAlignment="true">
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init25.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="2036" timescale="25">
+      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/init18.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/segment$Number$.m4f" startNumber="1937" timescale="25">
         <SegmentTimeline>
           <S d="50" r="14"></S>
         </SegmentTimeline>
       </SegmentTemplate>
-      <Representation bandwidth="449000" codecs="avc1.420015" frameRate="25/1" height="270" id="4460760524001_water450_3_480x270" width="480"></Representation>
       <Representation bandwidth="698000" codecs="avc1.42001e" frameRate="25/1" height="360" id="4460760524001_water700_3_640x360" width="640"></Representation>
-      <Representation bandwidth="899000" codecs="avc1.4d001e" frameRate="25/1" height="360" id="4460760524001_water900_3_640x360" width="640"></Representation>
-      <Representation bandwidth="1198000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1200_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1698000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1700_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1996000" codecs="avc1.4d001f" frameRate="25/1" height="720" id="4460760524001_water2000_3_1280x720" width="1280"></Representation>
     </AdaptationSet>
   </Period>
-  <Period id="26" duration="PT31.997097493S">
+  <Period id="19" duration="PT41.981677988S">
     <AdaptationSet mimeType="audio/mp4" startWithSAP="1" segmentAlignment="true" lang="en">
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init26.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="2077" timescale="44100">
+      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/init19.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/segment$Number$.m4f" startNumber="1970" timescale="44100">
         <SegmentTimeline>
-          <S d="88064" r="15"></S>
+          <S d="88064" r="20"></S>
           <S d="2048"></S>
         </SegmentTimeline>
       </SegmentTemplate>
-      <Representation audioSamplingRate="44100" bandwidth="64000" codecs="mp4a.40.2" id="default_audio64_5_en_main"></Representation>
       <Representation audioSamplingRate="44100" bandwidth="96000" codecs="mp4a.40.2" id="default_audio96_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="128000" codecs="mp4a.40.2" id="default_audio128_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="192000" codecs="mp4a.40.2" id="default_audio192_2_en_main"></Representation>
-    </AdaptationSet>
-    <AdaptationSet mimeType="text/vtt" lang="en">
-      <Representation bandwidth="256" id="subtitle_en">
-        <BaseURL>https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/a292ecf6-8d16-42b7-8fbc-8d1df2deec85/08a8e4b1-f7c5-45b2-8ca2-6ad47d8151d9.vtt</BaseURL>
-      </Representation>
     </AdaptationSet>
     <AdaptationSet mimeType="video/mp4" startWithSAP="1" scanType="progressive" segmentAlignment="true">
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init26.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="2051" timescale="25">
+      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/init19.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/segment$Number$.m4f" startNumber="1952" timescale="25">
         <SegmentTimeline>
-          <S d="50" r="15"></S>
+          <S d="50" r="20"></S>
         </SegmentTimeline>
       </SegmentTemplate>
-      <Representation bandwidth="449000" codecs="avc1.420015" frameRate="25/1" height="270" id="4460760524001_water450_3_480x270" width="480"></Representation>
       <Representation bandwidth="698000" codecs="avc1.42001e" frameRate="25/1" height="360" id="4460760524001_water700_3_640x360" width="640"></Representation>
-      <Representation bandwidth="899000" codecs="avc1.4d001e" frameRate="25/1" height="360" id="4460760524001_water900_3_640x360" width="640"></Representation>
-      <Representation bandwidth="1198000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1200_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1698000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1700_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1996000" codecs="avc1.4d001f" frameRate="25/1" height="720" id="4460760524001_water2000_3_1280x720" width="1280"></Representation>
     </AdaptationSet>
   </Period>
-  <Period id="27" duration="PT15.998548747S">
+  <Period id="20" duration="PT22S">
     <AdaptationSet mimeType="audio/mp4" startWithSAP="1" segmentAlignment="true" lang="en">
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init27.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="2094" timescale="44100">
+      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/init20.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/segment$Number$.m4f" startNumber="1992" timescale="44100">
         <SegmentTimeline>
-          <S d="88064" r="7"></S>
-          <S d="1024"></S>
+          <S d="88064" r="10"></S>
+          <S d="2048"></S>
         </SegmentTimeline>
       </SegmentTemplate>
-      <Representation audioSamplingRate="44100" bandwidth="64000" codecs="mp4a.40.2" id="default_audio64_5_en_main"></Representation>
       <Representation audioSamplingRate="44100" bandwidth="96000" codecs="mp4a.40.2" id="default_audio96_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="128000" codecs="mp4a.40.2" id="default_audio128_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="192000" codecs="mp4a.40.2" id="default_audio192_2_en_main"></Representation>
-    </AdaptationSet>
-    <AdaptationSet mimeType="text/vtt" lang="en">
-      <Representation bandwidth="256" id="subtitle_en">
-        <BaseURL>https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/a292ecf6-8d16-42b7-8fbc-8d1df2deec85/08a8e4b1-f7c5-45b2-8ca2-6ad47d8151d9.vtt</BaseURL>
-      </Representation>
     </AdaptationSet>
     <AdaptationSet mimeType="video/mp4" startWithSAP="1" scanType="progressive" segmentAlignment="true">
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init27.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="2067" timescale="25">
+      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/init20.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/segment$Number$.m4f" startNumber="1973" timescale="25">
         <SegmentTimeline>
-          <S d="50" r="7"></S>
+          <S d="50" r="10"></S>
         </SegmentTimeline>
       </SegmentTemplate>
-      <Representation bandwidth="449000" codecs="avc1.420015" frameRate="25/1" height="270" id="4460760524001_water450_3_480x270" width="480"></Representation>
       <Representation bandwidth="698000" codecs="avc1.42001e" frameRate="25/1" height="360" id="4460760524001_water700_3_640x360" width="640"></Representation>
-      <Representation bandwidth="899000" codecs="avc1.4d001e" frameRate="25/1" height="360" id="4460760524001_water900_3_640x360" width="640"></Representation>
-      <Representation bandwidth="1198000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1200_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1698000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1700_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1996000" codecs="avc1.4d001f" frameRate="25/1" height="720" id="4460760524001_water2000_3_1280x720" width="1280"></Representation>
     </AdaptationSet>
   </Period>
-  <Period id="28" duration="PT1.996916099S">
+  <Period id="21" duration="PT11M9S">
     <AdaptationSet mimeType="audio/mp4" startWithSAP="1" segmentAlignment="true" lang="en">
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init28.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="2103" timescale="44100">
-        <SegmentTimeline>
-          <S d="88064"></S>
-        </SegmentTimeline>
-      </SegmentTemplate>
-      <Representation audioSamplingRate="44100" bandwidth="64000" codecs="mp4a.40.2" id="default_audio64_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="96000" codecs="mp4a.40.2" id="default_audio96_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="128000" codecs="mp4a.40.2" id="default_audio128_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="192000" codecs="mp4a.40.2" id="default_audio192_2_en_main"></Representation>
-    </AdaptationSet>
-    <AdaptationSet mimeType="text/vtt" lang="en">
-      <Representation bandwidth="256" id="subtitle_en">
-        <BaseURL>https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/a292ecf6-8d16-42b7-8fbc-8d1df2deec85/08a8e4b1-f7c5-45b2-8ca2-6ad47d8151d9.vtt</BaseURL>
-      </Representation>
-    </AdaptationSet>
-    <AdaptationSet mimeType="video/mp4" startWithSAP="1" scanType="progressive" segmentAlignment="true">
-      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init28.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="2075" timescale="25">
-        <SegmentTimeline>
-          <S d="50"></S>
-        </SegmentTimeline>
-      </SegmentTemplate>
-      <Representation bandwidth="449000" codecs="avc1.420015" frameRate="25/1" height="270" id="4460760524001_water450_3_480x270" width="480"></Representation>
-      <Representation bandwidth="698000" codecs="avc1.42001e" frameRate="25/1" height="360" id="4460760524001_water700_3_640x360" width="640"></Representation>
-      <Representation bandwidth="899000" codecs="avc1.4d001e" frameRate="25/1" height="360" id="4460760524001_water900_3_640x360" width="640"></Representation>
-      <Representation bandwidth="1198000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1200_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1698000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1700_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1996000" codecs="avc1.4d001f" frameRate="25/1" height="720" id="4460760524001_water2000_3_1280x720" width="1280"></Representation>
-    </AdaptationSet>
-  </Period>
-  <Period id="29" duration="PT11M9S">
-    <AdaptationSet mimeType="audio/mp4" startWithSAP="1" segmentAlignment="true" lang="en">
-      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate presentationTimeOffset="153384960" initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init29.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="2104" timescale="44100">
+      <SegmentTemplate presentationTimeOffset="153384960" initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/init21.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/segment$Number$.m4f" startNumber="2004" timescale="44100">
         <SegmentTimeline>
           <S t="153384960" d="27648"></S>
           <S d="88064" r="333"></S>
           <S d="62464"></S>
         </SegmentTimeline>
       </SegmentTemplate>
-      <Representation audioSamplingRate="44100" bandwidth="64000" codecs="mp4a.40.2" id="default_audio64_5_en_main"></Representation>
       <Representation audioSamplingRate="44100" bandwidth="96000" codecs="mp4a.40.2" id="default_audio96_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="128000" codecs="mp4a.40.2" id="default_audio128_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="192000" codecs="mp4a.40.2" id="default_audio192_2_en_main"></Representation>
-    </AdaptationSet>
-    <AdaptationSet mimeType="text/vtt" lang="en">
-      <Representation bandwidth="256" id="subtitle_en">
-        <BaseURL>https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/a292ecf6-8d16-42b7-8fbc-8d1df2deec85/08a8e4b1-f7c5-45b2-8ca2-6ad47d8151d9.vtt</BaseURL>
-      </Representation>
     </AdaptationSet>
     <AdaptationSet mimeType="video/mp4" startWithSAP="1" scanType="progressive" segmentAlignment="true">
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate presentationTimeOffset="86950" initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init29.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="2076" timescale="25">
+      <SegmentTemplate presentationTimeOffset="86950" initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/init21.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/segment$Number$.m4f" startNumber="1984" timescale="25">
         <SegmentTimeline>
           <S t="86950" d="50" r="333"></S>
           <S d="25"></S>
         </SegmentTimeline>
       </SegmentTemplate>
-      <Representation bandwidth="449000" codecs="avc1.420015" frameRate="25/1" height="270" id="4460760524001_water450_3_480x270" width="480"></Representation>
       <Representation bandwidth="698000" codecs="avc1.42001e" frameRate="25/1" height="360" id="4460760524001_water700_3_640x360" width="640"></Representation>
-      <Representation bandwidth="899000" codecs="avc1.4d001e" frameRate="25/1" height="360" id="4460760524001_water900_3_640x360" width="640"></Representation>
-      <Representation bandwidth="1198000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1200_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1698000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1700_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1996000" codecs="avc1.4d001f" frameRate="25/1" height="720" id="4460760524001_water2000_3_1280x720" width="1280"></Representation>
     </AdaptationSet>
   </Period>
-  <Period id="30" duration="PT29.976961439S">
+  <Period id="22" duration="PT30S">
     <AdaptationSet mimeType="audio/mp4" startWithSAP="1" segmentAlignment="true" lang="en">
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init30.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="2440" timescale="44100">
+      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/init22.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/segment$Number$.m4f" startNumber="2340" timescale="44100">
         <SegmentTimeline>
           <S d="88064" r="14"></S>
-          <S d="1024"></S>
+          <S d="2048"></S>
         </SegmentTimeline>
       </SegmentTemplate>
-      <Representation audioSamplingRate="44100" bandwidth="64000" codecs="mp4a.40.2" id="default_audio64_5_en_main"></Representation>
       <Representation audioSamplingRate="44100" bandwidth="96000" codecs="mp4a.40.2" id="default_audio96_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="128000" codecs="mp4a.40.2" id="default_audio128_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="192000" codecs="mp4a.40.2" id="default_audio192_2_en_main"></Representation>
-    </AdaptationSet>
-    <AdaptationSet mimeType="text/vtt" lang="en">
-      <Representation bandwidth="256" id="subtitle_en">
-        <BaseURL>https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/a292ecf6-8d16-42b7-8fbc-8d1df2deec85/08a8e4b1-f7c5-45b2-8ca2-6ad47d8151d9.vtt</BaseURL>
-      </Representation>
     </AdaptationSet>
     <AdaptationSet mimeType="video/mp4" startWithSAP="1" scanType="progressive" segmentAlignment="true">
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init30.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="2411" timescale="25">
+      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/init22.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/segment$Number$.m4f" startNumber="2319" timescale="25">
         <SegmentTimeline>
           <S d="50" r="14"></S>
         </SegmentTimeline>
       </SegmentTemplate>
-      <Representation bandwidth="449000" codecs="avc1.420015" frameRate="25/1" height="270" id="4460760524001_water450_3_480x270" width="480"></Representation>
       <Representation bandwidth="698000" codecs="avc1.42001e" frameRate="25/1" height="360" id="4460760524001_water700_3_640x360" width="640"></Representation>
-      <Representation bandwidth="899000" codecs="avc1.4d001e" frameRate="25/1" height="360" id="4460760524001_water900_3_640x360" width="640"></Representation>
-      <Representation bandwidth="1198000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1200_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1698000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1700_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1996000" codecs="avc1.4d001f" frameRate="25/1" height="720" id="4460760524001_water2000_3_1280x720" width="1280"></Representation>
     </AdaptationSet>
   </Period>
-  <Period id="31" duration="PT31.997097493S">
+  <Period id="23" duration="PT30S">
     <AdaptationSet mimeType="audio/mp4" startWithSAP="1" segmentAlignment="true" lang="en">
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init31.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="2456" timescale="44100">
+      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/init23.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/segment$Number$.m4f" startNumber="2356" timescale="44100">
         <SegmentTimeline>
-          <S d="88064" r="15"></S>
+          <S d="88064" r="14"></S>
           <S d="2048"></S>
         </SegmentTimeline>
       </SegmentTemplate>
-      <Representation audioSamplingRate="44100" bandwidth="64000" codecs="mp4a.40.2" id="default_audio64_5_en_main"></Representation>
       <Representation audioSamplingRate="44100" bandwidth="96000" codecs="mp4a.40.2" id="default_audio96_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="128000" codecs="mp4a.40.2" id="default_audio128_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="192000" codecs="mp4a.40.2" id="default_audio192_2_en_main"></Representation>
-    </AdaptationSet>
-    <AdaptationSet mimeType="text/vtt" lang="en">
-      <Representation bandwidth="256" id="subtitle_en">
-        <BaseURL>https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/a292ecf6-8d16-42b7-8fbc-8d1df2deec85/08a8e4b1-f7c5-45b2-8ca2-6ad47d8151d9.vtt</BaseURL>
-      </Representation>
     </AdaptationSet>
     <AdaptationSet mimeType="video/mp4" startWithSAP="1" scanType="progressive" segmentAlignment="true">
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init31.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="2426" timescale="25">
+      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/init23.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/segment$Number$.m4f" startNumber="2334" timescale="25">
         <SegmentTimeline>
-          <S d="50" r="15"></S>
+          <S d="50" r="14"></S>
         </SegmentTimeline>
       </SegmentTemplate>
-      <Representation bandwidth="449000" codecs="avc1.420015" frameRate="25/1" height="270" id="4460760524001_water450_3_480x270" width="480"></Representation>
       <Representation bandwidth="698000" codecs="avc1.42001e" frameRate="25/1" height="360" id="4460760524001_water700_3_640x360" width="640"></Representation>
-      <Representation bandwidth="899000" codecs="avc1.4d001e" frameRate="25/1" height="360" id="4460760524001_water900_3_640x360" width="640"></Representation>
-      <Representation bandwidth="1198000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1200_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1698000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1700_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1996000" codecs="avc1.4d001f" frameRate="25/1" height="720" id="4460760524001_water2000_3_1280x720" width="1280"></Representation>
     </AdaptationSet>
   </Period>
-  <Period id="32" duration="PT15.998548747S">
+  <Period id="24" duration="PT8M34S">
     <AdaptationSet mimeType="audio/mp4" startWithSAP="1" segmentAlignment="true" lang="en">
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init32.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="2473" timescale="44100">
-        <SegmentTimeline>
-          <S d="88064" r="7"></S>
-          <S d="1024"></S>
-        </SegmentTimeline>
-      </SegmentTemplate>
-      <Representation audioSamplingRate="44100" bandwidth="64000" codecs="mp4a.40.2" id="default_audio64_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="96000" codecs="mp4a.40.2" id="default_audio96_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="128000" codecs="mp4a.40.2" id="default_audio128_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="192000" codecs="mp4a.40.2" id="default_audio192_2_en_main"></Representation>
-    </AdaptationSet>
-    <AdaptationSet mimeType="text/vtt" lang="en">
-      <Representation bandwidth="256" id="subtitle_en">
-        <BaseURL>https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/a292ecf6-8d16-42b7-8fbc-8d1df2deec85/08a8e4b1-f7c5-45b2-8ca2-6ad47d8151d9.vtt</BaseURL>
-      </Representation>
-    </AdaptationSet>
-    <AdaptationSet mimeType="video/mp4" startWithSAP="1" scanType="progressive" segmentAlignment="true">
-      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init32.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="2442" timescale="25">
-        <SegmentTimeline>
-          <S d="50" r="7"></S>
-        </SegmentTimeline>
-      </SegmentTemplate>
-      <Representation bandwidth="449000" codecs="avc1.420015" frameRate="25/1" height="270" id="4460760524001_water450_3_480x270" width="480"></Representation>
-      <Representation bandwidth="698000" codecs="avc1.42001e" frameRate="25/1" height="360" id="4460760524001_water700_3_640x360" width="640"></Representation>
-      <Representation bandwidth="899000" codecs="avc1.4d001e" frameRate="25/1" height="360" id="4460760524001_water900_3_640x360" width="640"></Representation>
-      <Representation bandwidth="1198000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1200_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1698000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1700_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1996000" codecs="avc1.4d001f" frameRate="25/1" height="720" id="4460760524001_water2000_3_1280x720" width="1280"></Representation>
-    </AdaptationSet>
-  </Period>
-  <Period id="33" duration="PT1.996916099S">
-    <AdaptationSet mimeType="audio/mp4" startWithSAP="1" segmentAlignment="true" lang="en">
-      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init33.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="2482" timescale="44100">
-        <SegmentTimeline>
-          <S d="88064"></S>
-        </SegmentTimeline>
-      </SegmentTemplate>
-      <Representation audioSamplingRate="44100" bandwidth="64000" codecs="mp4a.40.2" id="default_audio64_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="96000" codecs="mp4a.40.2" id="default_audio96_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="128000" codecs="mp4a.40.2" id="default_audio128_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="192000" codecs="mp4a.40.2" id="default_audio192_2_en_main"></Representation>
-    </AdaptationSet>
-    <AdaptationSet mimeType="text/vtt" lang="en">
-      <Representation bandwidth="256" id="subtitle_en">
-        <BaseURL>https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/a292ecf6-8d16-42b7-8fbc-8d1df2deec85/08a8e4b1-f7c5-45b2-8ca2-6ad47d8151d9.vtt</BaseURL>
-      </Representation>
-    </AdaptationSet>
-    <AdaptationSet mimeType="video/mp4" startWithSAP="1" scanType="progressive" segmentAlignment="true">
-      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init33.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="2450" timescale="25">
-        <SegmentTimeline>
-          <S d="50"></S>
-        </SegmentTimeline>
-      </SegmentTemplate>
-      <Representation bandwidth="449000" codecs="avc1.420015" frameRate="25/1" height="270" id="4460760524001_water450_3_480x270" width="480"></Representation>
-      <Representation bandwidth="698000" codecs="avc1.42001e" frameRate="25/1" height="360" id="4460760524001_water700_3_640x360" width="640"></Representation>
-      <Representation bandwidth="899000" codecs="avc1.4d001e" frameRate="25/1" height="360" id="4460760524001_water900_3_640x360" width="640"></Representation>
-      <Representation bandwidth="1198000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1200_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1698000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1700_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1996000" codecs="avc1.4d001f" frameRate="25/1" height="720" id="4460760524001_water2000_3_1280x720" width="1280"></Representation>
-    </AdaptationSet>
-  </Period>
-  <Period id="34" duration="PT8M34S">
-    <AdaptationSet mimeType="audio/mp4" startWithSAP="1" segmentAlignment="true" lang="en">
-      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate presentationTimeOffset="182888448" initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init34.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="2483" timescale="44100">
+      <SegmentTemplate presentationTimeOffset="182888448" initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/init24.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/segment$Number$.m4f" startNumber="2372" timescale="44100">
         <SegmentTimeline>
           <S t="182888448" d="26624"></S>
           <S d="88064" r="256"></S>
           <S d="9216"></S>
         </SegmentTimeline>
       </SegmentTemplate>
-      <Representation audioSamplingRate="44100" bandwidth="64000" codecs="mp4a.40.2" id="default_audio64_5_en_main"></Representation>
       <Representation audioSamplingRate="44100" bandwidth="96000" codecs="mp4a.40.2" id="default_audio96_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="128000" codecs="mp4a.40.2" id="default_audio128_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="192000" codecs="mp4a.40.2" id="default_audio192_2_en_main"></Representation>
-    </AdaptationSet>
-    <AdaptationSet mimeType="text/vtt" lang="en">
-      <Representation bandwidth="256" id="subtitle_en">
-        <BaseURL>https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/a292ecf6-8d16-42b7-8fbc-8d1df2deec85/08a8e4b1-f7c5-45b2-8ca2-6ad47d8151d9.vtt</BaseURL>
-      </Representation>
     </AdaptationSet>
     <AdaptationSet mimeType="video/mp4" startWithSAP="1" scanType="progressive" segmentAlignment="true">
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate presentationTimeOffset="103675" initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init34.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="2451" timescale="25">
+      <SegmentTemplate presentationTimeOffset="103675" initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/init24.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/segment$Number$.m4f" startNumber="2349" timescale="25">
         <SegmentTimeline>
           <S t="103675" d="25"></S>
           <S d="50" r="255"></S>
           <S d="25"></S>
         </SegmentTimeline>
       </SegmentTemplate>
-      <Representation bandwidth="449000" codecs="avc1.420015" frameRate="25/1" height="270" id="4460760524001_water450_3_480x270" width="480"></Representation>
       <Representation bandwidth="698000" codecs="avc1.42001e" frameRate="25/1" height="360" id="4460760524001_water700_3_640x360" width="640"></Representation>
-      <Representation bandwidth="899000" codecs="avc1.4d001e" frameRate="25/1" height="360" id="4460760524001_water900_3_640x360" width="640"></Representation>
-      <Representation bandwidth="1198000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1200_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1698000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1700_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1996000" codecs="avc1.4d001f" frameRate="25/1" height="720" id="4460760524001_water2000_3_1280x720" width="1280"></Representation>
     </AdaptationSet>
   </Period>
-  <Period id="35" duration="PT29.976961439S">
+  <Period id="25" duration="PT30S">
     <AdaptationSet mimeType="audio/mp4" startWithSAP="1" segmentAlignment="true" lang="en">
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init35.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="2742" timescale="44100">
-        <SegmentTimeline>
-          <S d="88064" r="14"></S>
-          <S d="1024"></S>
-        </SegmentTimeline>
-      </SegmentTemplate>
-      <Representation audioSamplingRate="44100" bandwidth="64000" codecs="mp4a.40.2" id="default_audio64_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="96000" codecs="mp4a.40.2" id="default_audio96_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="128000" codecs="mp4a.40.2" id="default_audio128_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="192000" codecs="mp4a.40.2" id="default_audio192_2_en_main"></Representation>
-    </AdaptationSet>
-    <AdaptationSet mimeType="text/vtt" lang="en">
-      <Representation bandwidth="256" id="subtitle_en">
-        <BaseURL>https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/a292ecf6-8d16-42b7-8fbc-8d1df2deec85/08a8e4b1-f7c5-45b2-8ca2-6ad47d8151d9.vtt</BaseURL>
-      </Representation>
-    </AdaptationSet>
-    <AdaptationSet mimeType="video/mp4" startWithSAP="1" scanType="progressive" segmentAlignment="true">
-      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init35.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="2709" timescale="25">
-        <SegmentTimeline>
-          <S d="50" r="14"></S>
-        </SegmentTimeline>
-      </SegmentTemplate>
-      <Representation bandwidth="449000" codecs="avc1.420015" frameRate="25/1" height="270" id="4460760524001_water450_3_480x270" width="480"></Representation>
-      <Representation bandwidth="698000" codecs="avc1.42001e" frameRate="25/1" height="360" id="4460760524001_water700_3_640x360" width="640"></Representation>
-      <Representation bandwidth="899000" codecs="avc1.4d001e" frameRate="25/1" height="360" id="4460760524001_water900_3_640x360" width="640"></Representation>
-      <Representation bandwidth="1198000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1200_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1698000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1700_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1996000" codecs="avc1.4d001f" frameRate="25/1" height="720" id="4460760524001_water2000_3_1280x720" width="1280"></Representation>
-    </AdaptationSet>
-  </Period>
-  <Period id="36" duration="PT31.997097493S">
-    <AdaptationSet mimeType="audio/mp4" startWithSAP="1" segmentAlignment="true" lang="en">
-      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init36.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="2758" timescale="44100">
-        <SegmentTimeline>
-          <S d="88064" r="15"></S>
-          <S d="2048"></S>
-        </SegmentTimeline>
-      </SegmentTemplate>
-      <Representation audioSamplingRate="44100" bandwidth="64000" codecs="mp4a.40.2" id="default_audio64_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="96000" codecs="mp4a.40.2" id="default_audio96_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="128000" codecs="mp4a.40.2" id="default_audio128_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="192000" codecs="mp4a.40.2" id="default_audio192_2_en_main"></Representation>
-    </AdaptationSet>
-    <AdaptationSet mimeType="text/vtt" lang="en">
-      <Representation bandwidth="256" id="subtitle_en">
-        <BaseURL>https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/a292ecf6-8d16-42b7-8fbc-8d1df2deec85/08a8e4b1-f7c5-45b2-8ca2-6ad47d8151d9.vtt</BaseURL>
-      </Representation>
-    </AdaptationSet>
-    <AdaptationSet mimeType="video/mp4" startWithSAP="1" scanType="progressive" segmentAlignment="true">
-      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init36.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="2724" timescale="25">
-        <SegmentTimeline>
-          <S d="50" r="15"></S>
-        </SegmentTimeline>
-      </SegmentTemplate>
-      <Representation bandwidth="449000" codecs="avc1.420015" frameRate="25/1" height="270" id="4460760524001_water450_3_480x270" width="480"></Representation>
-      <Representation bandwidth="698000" codecs="avc1.42001e" frameRate="25/1" height="360" id="4460760524001_water700_3_640x360" width="640"></Representation>
-      <Representation bandwidth="899000" codecs="avc1.4d001e" frameRate="25/1" height="360" id="4460760524001_water900_3_640x360" width="640"></Representation>
-      <Representation bandwidth="1198000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1200_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1698000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1700_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1996000" codecs="avc1.4d001f" frameRate="25/1" height="720" id="4460760524001_water2000_3_1280x720" width="1280"></Representation>
-    </AdaptationSet>
-  </Period>
-  <Period id="37" duration="PT30S">
-    <AdaptationSet mimeType="audio/mp4" startWithSAP="1" segmentAlignment="true" lang="en">
-      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init37.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="2775" timescale="44100">
+      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/init25.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/segment$Number$.m4f" startNumber="2631" timescale="44100">
         <SegmentTimeline>
           <S d="88064" r="14"></S>
           <S d="2048"></S>
         </SegmentTimeline>
       </SegmentTemplate>
-      <Representation audioSamplingRate="44100" bandwidth="64000" codecs="mp4a.40.2" id="default_audio64_5_en_main"></Representation>
       <Representation audioSamplingRate="44100" bandwidth="96000" codecs="mp4a.40.2" id="default_audio96_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="128000" codecs="mp4a.40.2" id="default_audio128_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="192000" codecs="mp4a.40.2" id="default_audio192_2_en_main"></Representation>
-    </AdaptationSet>
-    <AdaptationSet mimeType="text/vtt" lang="en">
-      <Representation bandwidth="256" id="subtitle_en">
-        <BaseURL>https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/a292ecf6-8d16-42b7-8fbc-8d1df2deec85/08a8e4b1-f7c5-45b2-8ca2-6ad47d8151d9.vtt</BaseURL>
-      </Representation>
     </AdaptationSet>
     <AdaptationSet mimeType="video/mp4" startWithSAP="1" scanType="progressive" segmentAlignment="true">
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init37.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="2740" timescale="25">
+      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/init25.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/segment$Number$.m4f" startNumber="2607" timescale="25">
         <SegmentTimeline>
           <S d="50" r="14"></S>
         </SegmentTimeline>
       </SegmentTemplate>
-      <Representation bandwidth="449000" codecs="avc1.420015" frameRate="25/1" height="270" id="4460760524001_water450_3_480x270" width="480"></Representation>
       <Representation bandwidth="698000" codecs="avc1.42001e" frameRate="25/1" height="360" id="4460760524001_water700_3_640x360" width="640"></Representation>
-      <Representation bandwidth="899000" codecs="avc1.4d001e" frameRate="25/1" height="360" id="4460760524001_water900_3_640x360" width="640"></Representation>
-      <Representation bandwidth="1198000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1200_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1698000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1700_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1996000" codecs="avc1.4d001f" frameRate="25/1" height="720" id="4460760524001_water2000_3_1280x720" width="1280"></Representation>
     </AdaptationSet>
   </Period>
-  <Period id="38" duration="PT2S">
+  <Period id="26" duration="PT30S">
     <AdaptationSet mimeType="audio/mp4" startWithSAP="1" segmentAlignment="true" lang="en">
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init38.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="2791" timescale="44100">
+      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/init26.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/segment$Number$.m4f" startNumber="2647" timescale="44100">
         <SegmentTimeline>
-          <S d="88064"></S>
-          <S d="1024"></S>
+          <S d="88064" r="14"></S>
+          <S d="2048"></S>
         </SegmentTimeline>
       </SegmentTemplate>
-      <Representation audioSamplingRate="44100" bandwidth="64000" codecs="mp4a.40.2" id="default_audio64_5_en_main"></Representation>
       <Representation audioSamplingRate="44100" bandwidth="96000" codecs="mp4a.40.2" id="default_audio96_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="128000" codecs="mp4a.40.2" id="default_audio128_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="192000" codecs="mp4a.40.2" id="default_audio192_2_en_main"></Representation>
-    </AdaptationSet>
-    <AdaptationSet mimeType="text/vtt" lang="en">
-      <Representation bandwidth="256" id="subtitle_en">
-        <BaseURL>https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/a292ecf6-8d16-42b7-8fbc-8d1df2deec85/08a8e4b1-f7c5-45b2-8ca2-6ad47d8151d9.vtt</BaseURL>
-      </Representation>
     </AdaptationSet>
     <AdaptationSet mimeType="video/mp4" startWithSAP="1" scanType="progressive" segmentAlignment="true">
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init38.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="2755" timescale="25">
+      <SegmentTemplate initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/init26.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/segment$Number$.m4f" startNumber="2622" timescale="25">
         <SegmentTimeline>
-          <S d="50"></S>
+          <S d="50" r="14"></S>
         </SegmentTimeline>
       </SegmentTemplate>
-      <Representation bandwidth="449000" codecs="avc1.420015" frameRate="25/1" height="270" id="4460760524001_water450_3_480x270" width="480"></Representation>
       <Representation bandwidth="698000" codecs="avc1.42001e" frameRate="25/1" height="360" id="4460760524001_water700_3_640x360" width="640"></Representation>
-      <Representation bandwidth="899000" codecs="avc1.4d001e" frameRate="25/1" height="360" id="4460760524001_water900_3_640x360" width="640"></Representation>
-      <Representation bandwidth="1198000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1200_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1698000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1700_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1996000" codecs="avc1.4d001f" frameRate="25/1" height="720" id="4460760524001_water2000_3_1280x720" width="1280"></Representation>
     </AdaptationSet>
   </Period>
-  <Period id="39" duration="PT6M23.8S">
+  <Period id="27" duration="PT6M23.802630237S">
     <AdaptationSet mimeType="audio/mp4" startWithSAP="1" segmentAlignment="true" lang="en">
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate presentationTimeOffset="205556736" initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init39.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="2793" timescale="44100">
+      <SegmentTemplate presentationTimeOffset="205556736" initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/init27.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/segment$Number$.m4f" startNumber="2663" timescale="44100">
         <SegmentTimeline>
           <S t="205556736" d="79872"></S>
           <S d="88064" r="190"></S>
-          <S d="24576"></S>
+          <S d="25600"></S>
         </SegmentTimeline>
       </SegmentTemplate>
-      <Representation audioSamplingRate="44100" bandwidth="64000" codecs="mp4a.40.2" id="default_audio64_5_en_main"></Representation>
       <Representation audioSamplingRate="44100" bandwidth="96000" codecs="mp4a.40.2" id="default_audio96_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="128000" codecs="mp4a.40.2" id="default_audio128_5_en_main"></Representation>
-      <Representation audioSamplingRate="44100" bandwidth="192000" codecs="mp4a.40.2" id="default_audio192_2_en_main"></Representation>
-    </AdaptationSet>
-    <AdaptationSet mimeType="text/vtt" lang="en">
-      <Representation bandwidth="256" id="subtitle_en">
-        <BaseURL>https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/a292ecf6-8d16-42b7-8fbc-8d1df2deec85/08a8e4b1-f7c5-45b2-8ca2-6ad47d8151d9.vtt</BaseURL>
-      </Representation>
     </AdaptationSet>
     <AdaptationSet mimeType="video/mp4" startWithSAP="1" scanType="progressive" segmentAlignment="true">
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
-      <SegmentTemplate presentationTimeOffset="116525" initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/init39.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/09d29a23-f581-4681-bd5d-417eff8cd8a7/xbc/$RepresentationID$/segment$Number$.m4f" startNumber="2756" timescale="25">
+      <SegmentTemplate presentationTimeOffset="116525" initialization="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/init27.m4f" media="https://redirector.playback.ap-southeast-2.prod.deploys.brightcove.com/playback/once/redirect/v1/4460760524001/c8349036-62c7-4321-a0fb-f91d2f97d0c3/xb4/$RepresentationID$/segment$Number$.m4f" startNumber="2637" timescale="25">
         <SegmentTimeline>
           <S t="116525" d="25"></S>
           <S d="50" r="190"></S>
           <S d="20"></S>
         </SegmentTimeline>
       </SegmentTemplate>
-      <Representation bandwidth="449000" codecs="avc1.420015" frameRate="25/1" height="270" id="4460760524001_water450_3_480x270" width="480"></Representation>
       <Representation bandwidth="698000" codecs="avc1.42001e" frameRate="25/1" height="360" id="4460760524001_water700_3_640x360" width="640"></Representation>
-      <Representation bandwidth="899000" codecs="avc1.4d001e" frameRate="25/1" height="360" id="4460760524001_water900_3_640x360" width="640"></Representation>
-      <Representation bandwidth="1198000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1200_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1698000" codecs="avc1.4d001f" frameRate="25/1" height="540" id="4460760524001_water1700_3_960x540" width="960"></Representation>
-      <Representation bandwidth="1996000" codecs="avc1.4d001f" frameRate="25/1" height="720" id="4460760524001_water2000_3_1280x720" width="1280"></Representation>
     </AdaptationSet>
   </Period>
 </MPD>
