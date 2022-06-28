@@ -2,6 +2,8 @@ const convert = require("xml-js");
 const fs = require("fs");
 const { download } = require("./download");
 
+const outputDir = "output";
+
 const mpdFileName = process.argv[2];
 const remoteMappings = [];
 
@@ -41,7 +43,7 @@ for (let periodIndex = 0; periodIndex < numPeriods; periodIndex++) {
         /\$RepresentationID\$/,
         representation.attributes.id
       );
-      const initLocalPath = `periods/${periodIndex}/${representation.attributes.id}/init0.m4f`;
+      const initLocalPath = `${outputDir}/periods/${periodIndex}/${representation.attributes.id}/init0.m4f`;
       remoteMappings.push({
         remote: initRemoteUrl,
         path: initLocalPath,
@@ -58,12 +60,12 @@ for (let periodIndex = 0; periodIndex < numPeriods; periodIndex++) {
         remoteMappings.push({
           period: periodIndex,
           remote: remoteUrl,
-          path: `periods/${periodIndex}/${representation.attributes.id}/segment${segmentNumber}.m4f`,
+          path: `${outputDir}/periods/${periodIndex}/${representation.attributes.id}/segment${segmentNumber}.m4f`,
         });
       }
     }
-    initTemplate.attributes.initialization = `periods/${periodIndex}/$RepresentationID$/init0.m4f`;
-    initTemplate.attributes.media = `periods/${periodIndex}/$RepresentationID$/segment$Number$.m4f`;
+    initTemplate.attributes.initialization = `${outputDir}/periods/${periodIndex}/$RepresentationID$/init0.m4f`;
+    initTemplate.attributes.media = `${outputDir}/periods/${periodIndex}/$RepresentationID$/segment$Number$.m4f`;
   }
 }
 
@@ -108,6 +110,6 @@ class DownloadQueue {
 const onComplete = () => {
   console.log("Downloads done");
   const modifiedMpd = convert.json2xml(JSON.stringify(manifest), { spaces: 2 });
-  fs.writeFileSync("out.mpd", modifiedMpd);
+  fs.writeFileSync(`${outputDir}/manifest.mpd`, modifiedMpd);
 };
 new DownloadQueue(remoteMappings, onComplete);

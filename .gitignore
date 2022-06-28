@@ -1,3 +1,4 @@
 node_modules
-periods
+output
 *.mpd
+.DS_Store
